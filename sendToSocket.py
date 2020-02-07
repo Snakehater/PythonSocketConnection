@@ -15,7 +15,7 @@ def handlecommand(string):
 
 
 # Define the port on which you want to connect
-port = 6969
+port = 6924
 running = True
 
 
