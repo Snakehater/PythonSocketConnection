@@ -6,7 +6,8 @@ from time import sleep
 # import sys
 import sys
 
-ip = sys.argv[1]
+#ip = sys.argv[1]
+ip = '192.168.10.137'
 
 
 def handlecommand(string):
