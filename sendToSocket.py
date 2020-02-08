@@ -35,6 +35,7 @@ def newconnection():
             while True:
                 # receive data from the server
                 res = s.recv(1024)
+                print res
                 if res == "stopLoop":
                     running = False
                     s.sendall(b"Loop stopped")
