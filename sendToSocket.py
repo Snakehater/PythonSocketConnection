@@ -8,6 +8,7 @@ import sys
 
 #ip = sys.argv[1]
 # ip = '172.31.3.215'
+# ip = '192.168.10.145'
 wifiConnection = 'networksetup -setairportnetwork en0 Fridaskolan vanersborg0521'
 print wifiConnection.split()
 subprocess.call(wifiConnection, shell=True)

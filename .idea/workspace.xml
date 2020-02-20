@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ffc0198-4caa-43da-bebc-f7e82ff2cf1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FakeWifiDialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FakeWifiDialogOneTime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sendToSocket os integration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/newserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendToSocket.py" beforeDir="false" afterPath="$PROJECT_DIR$/sendToSocket.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +31,7 @@
           <entry key="iml" value="1" />
           <entry key="key" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="30" />
+          <entry key="py" value="31" />
           <entry key="sh" value="1" />
         </counts>
       </usages-collector>
@@ -43,27 +40,39 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="3" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="30" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="27" />
-          <entry key="py" value="7048" />
+          <entry key="py" value="7146" />
           <entry key="sh" value="19" />
-          <entry key="txt" value="251" />
+          <entry key="txt" value="304" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="297" />
-          <entry key="Python" value="7048" />
+          <entry key="PLAIN_TEXT" value="350" />
+          <entry key="Python" value="7146" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sendToSocket.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FakeWifiDialog.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,11 +90,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FakeWifiDialogOneTime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+            <state relative-caret-position="780">
+              <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+              <folding>
+                <element signature="e#649#670#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,9 +144,9 @@
         <option value="$PROJECT_DIR$/udp.py" />
         <option value="$PROJECT_DIR$/Server.py" />
         <option value="$PROJECT_DIR$/newserver.py" />
-        <option value="$PROJECT_DIR$/sendToSocket.py" />
         <option value="$PROJECT_DIR$/FakeWifiDialog.py" />
         <option value="$PROJECT_DIR$/FakeWifiDialogOneTime.py" />
+        <option value="$PROJECT_DIR$/sendToSocket.py" />
       </list>
     </option>
   </component>
@@ -184,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582225638991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582237121771" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -211,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FakeWifiDialogOneTime">
+  <component name="RunManager" selected="Python.sendToSocket">
     <configuration name="FakeWifiDialog" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonSocket" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -402,12 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582017056818</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created a fake wifi dialog, one time or looping">
+      <created>1582225685792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582225685793</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -445,14 +463,15 @@
     <MESSAGE value="changed port&#10;removed unnecessary print in sendToSocket.py&#10;fixed encoding issue in newserver.py" />
     <MESSAGE value="removed ip adress" />
     <MESSAGE value="added shell integration and made it connect to the wifi of Fridaskolan" />
-    <option name="LAST_COMMIT_MESSAGE" value="added shell integration and made it connect to the wifi of Fridaskolan" />
+    <MESSAGE value="created a fake wifi dialog, one time or looping" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a fake wifi dialog, one time or looping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/sendToSocket.py</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -518,28 +537,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendToSocket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/info.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/info.gif">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FakeWifiDialog.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -558,8 +560,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FakeWifiDialogOneTime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+        <state relative-caret-position="780">
+          <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          <folding>
+            <element signature="e#649#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendToSocket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
