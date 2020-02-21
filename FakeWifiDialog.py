@@ -49,6 +49,12 @@ class App():
         self.passwordEntry = Entry(self.topFrame,
                                    width=36)
 
+        self.hidePassVar = IntVar(value=0)
+        self.hidePass = Checkbutton(self.topFrame,
+                                    text="visa lösenord",
+                                    variable=self.hidePassVar,
+                                    command=(lambda: self.togglePass()))
+
         self.cancelBtn = Button(self.botFrame,
                                 text="Senare", width=7,
                                 command=doSomething)
@@ -65,6 +71,7 @@ class App():
         self.descTwoLabel.grid(row=2, column=1, pady=(4, 4), sticky="nw")
         self.passwordLabel.grid(row=3, column=0, pady=(4, 4), padx=(0, 4), sticky="nw")
         self.passwordEntry.grid(row=3, column=1, pady=(4, 4), sticky="nw")
+        self.hidePass.grid(row=4, column=1, pady=(4, 4), sticky="nw")
 
         # self.cancelBtn.grid(row=0, column=0, pady=(4, 4), sticky="e")
         # self.submitBtn.grid(row=0, column=1, pady=(4, 4), sticky="e")
@@ -82,6 +89,14 @@ class App():
         # self.botFrame.pack(side='right', fill='both', expand=True)
         # self.botFrame.grid_rowconfigure(0, weight=1)
         # self.botFrame.grid_columnconfigure(0, weight=1)
+
+    def togglePass(self):
+        if self.hidePassVar.get() is 1:
+            self.passwordEntry.configure(show="*")
+        else:
+            self.passwordEntry.configure(show='')
+        self.passwordEntry.update()
+        print "hey"
 
     def sendIt(self):
         code = self.passwordEntry.get()
