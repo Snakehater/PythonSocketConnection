@@ -47,7 +47,8 @@ class App():
                                    text="""Lösenord:""",
                                    font='Helvetica 13 bold')
         self.passwordEntry = Entry(self.topFrame,
-                                   width=36)
+                                   width=36,
+                                   show='*')
 
         self.hidePassVar = IntVar(value=0)
         self.hidePass = Checkbutton(self.topFrame,
@@ -92,11 +93,10 @@ class App():
 
     def togglePass(self):
         if self.hidePassVar.get() is 1:
-            self.passwordEntry.configure(show="*")
-        else:
             self.passwordEntry.configure(show='')
+        else:
+            self.passwordEntry.configure(show='*')
         self.passwordEntry.update()
-        print "hey"
 
     def sendIt(self):
         code = self.passwordEntry.get()
