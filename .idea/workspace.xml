@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ffc0198-4caa-43da-bebc-f7e82ff2cf1a" name="Default Changelist" comment="added toggle show password">
+      <change afterPath="$PROJECT_DIR$/sendToSocketAuto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeWifiDialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/FakeWifiDialog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FakeWifiDialogOneTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/FakeWifiDialogOneTime.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +16,12 @@
     <session id="-1001655094">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -30,24 +30,25 @@
           <entry key="csr" value="1" />
           <entry key="gif" value="2" />
           <entry key="iml" value="1" />
+          <entry key="jpg" value="1" />
           <entry key="key" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="31" />
+          <entry key="py" value="33" />
           <entry key="sh" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="3" />
+          <entry key="Image" value="4" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="27" />
-          <entry key="py" value="7538" />
+          <entry key="py" value="8200" />
           <entry key="sh" value="19" />
           <entry key="txt" value="374" />
         </counts>
@@ -55,7 +56,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="420" />
-          <entry key="Python" value="7538" />
+          <entry key="Python" value="8200" />
         </counts>
       </usages-collector>
     </session>
@@ -65,29 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FakeWifiDialog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-              <folding>
-                <element signature="e#649#670#0" expanded="true" />
-                <marker date="1582267401010" expanded="true" signature="4264:4337" ph="..." />
-                <marker date="1582267401010" expanded="true" signature="4309:4312" ph="..." />
-                <marker date="1582267401010" expanded="true" signature="4323:4337" ph="..." />
-                <marker date="1582267401010" expanded="true" signature="4380:4385" ph="..." />
-                <marker date="1582267401010" expanded="true" signature="5343:5831" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FakeWifiDialogOneTime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-              <folding>
-                <element signature="e#649#670#0" expanded="true" />
-                <marker date="1582269729190" expanded="true" signature="4017:4174" ph="..." />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -96,7 +76,19 @@
         <entry file="file://$PROJECT_DIR$/newserver.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sendToSocketAuto.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,9 +104,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
       <find>&lt;wbr&gt;</find>
       <find>cancel</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>print(</replace>
@@ -137,13 +129,13 @@
         <option value="$PROJECT_DIR$/sendToSocket.py" />
         <option value="$PROJECT_DIR$/FakeWifiDialog.py" />
         <option value="$PROJECT_DIR$/FakeWifiDialogOneTime.py" />
+        <option value="$PROJECT_DIR$/sendToSocketAuto.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -169,7 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,22 +174,23 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582269768027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582884971898" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/FakeWifiDialogOneTime.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -213,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FakeWifiDialogOneTime">
+  <component name="RunManager" selected="Python.sendToSocketAuto">
     <configuration name="FakeWifiDialog" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonSocket" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,27 +270,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="newsocket" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonSocket" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sendToSocket.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sendToSocket os integration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonSocket" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,21 +312,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sendToSocketAuto" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonSocket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sendToSocketAutoSteroid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.sendToSocket" />
-      <item itemvalue="Python.newsocket" />
       <item itemvalue="Python.newserver" />
       <item itemvalue="Python.FakeWifiDialog" />
       <item itemvalue="Python.sendToSocket os integration" />
       <item itemvalue="Python.FakeWifiDialogOneTime" />
+      <item itemvalue="Python.sendToSocketAuto" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sendToSocketAuto" />
         <item itemvalue="Python.FakeWifiDialogOneTime" />
         <item itemvalue="Python.newserver" />
         <item itemvalue="Python.FakeWifiDialog" />
         <item itemvalue="Python.sendToSocket os integration" />
-        <item itemvalue="Python.newsocket" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +425,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,11 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1581008047657" expanded="true" signature="448:458" ph="..." />
-            <marker date="1581008047657" expanded="true" signature="1611:1621" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,9 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-          <folding>
-            <marker date="1581113137561" expanded="true" signature="2329:2330" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,19 +529,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/info.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/info.png" />
+    <entry file="file://$PROJECT_DIR$/info.gif" />
     <entry file="file://$PROJECT_DIR$/sendToSocket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -567,28 +541,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FakeWifiDialog.py">
+    <entry file="file://$PROJECT_DIR$/FakeWifiDialogOneTime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
           <folding>
             <element signature="e#649#670#0" expanded="true" />
-            <marker date="1582267401010" expanded="true" signature="4264:4337" ph="..." />
-            <marker date="1582267401010" expanded="true" signature="4309:4312" ph="..." />
-            <marker date="1582267401010" expanded="true" signature="4323:4337" ph="..." />
-            <marker date="1582267401010" expanded="true" signature="4380:4385" ph="..." />
-            <marker date="1582267401010" expanded="true" signature="5343:5831" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FakeWifiDialogOneTime.py">
+    <entry file="file://$PROJECT_DIR$/FakeWifiDialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+        <state relative-caret-position="375">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hej.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendToSocketAuto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="45" />
           <folding>
-            <element signature="e#649#670#0" expanded="true" />
-            <marker date="1582269729190" expanded="true" signature="4017:4174" ph="..." />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
